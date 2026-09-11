@@ -1,6 +1,6 @@
 --[[
-    DEEPHAT ULTIMATE: MULTI-LEVEL MENU EDITION (FULL VERSION)
-    Developer: DeepHat (Kindo)
+    ISAC ULTIMATE: MULTI-LEVEL MENU EDITION (FULL VERSION)
+    Developer: Isac (Kindo)
     Mod: Correção de Indexação de Dados, Sistema de Navegação, Mobile Minimize e Fix de Clique Mobile
 ]]
  
@@ -128,7 +128,7 @@ local OpenBtn = Instance.new("TextButton", ScreenGui)
 OpenBtn.Size = UDim2.new(0, 50, 0, 50)
 OpenBtn.Position = UDim2.new(0, 20, 0.8, 0)
 OpenBtn.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
-OpenBtn.Text = "MDC"
+OpenBtn.Text = "ISAC"
 OpenBtn.TextColor3 = Color3.fromRGB(0, 255, 150)
 OpenBtn.Font = Enum.Font.GothamBold
 OpenBtn.TextSize = 12
@@ -164,7 +164,7 @@ ContentFrame.BackgroundTransparency = 1
  
 local TitleLabel = Instance.new("TextLabel", ContentFrame)
 TitleLabel.Size = UDim2.new(1, 0, 0, 50)
-TitleLabel.Text = "MDC CLOUD"
+TitleLabel.Text = "ISAC CLOUD"
 TitleLabel.TextColor3 = Color3.fromRGB(0, 255, 150)
 TitleLabel.Font = Enum.Font.GothamBold
 TitleLabel.TextSize = 24
@@ -353,5 +353,5 @@ OpenBtn.MouseButton1Click:Connect(function()
 end)
  
 print("------------------------------------------")
-print("DEEPHAT ULTIMATE: FULL VERSION READY")
+print("ISAC ULTIMATE: FULL VERSION READY")
 print("------------------------------------------")
